@@ -76,6 +76,12 @@
       "room": "A-09",
       "status": "unavailable",
       "type": "BUSINESS"
+    },
+    {
+      "id": "84d0",
+      "room": "555",
+      "status": "available",
+      "type": "DELUXE"
     }
   ],
   "reservationlist": [

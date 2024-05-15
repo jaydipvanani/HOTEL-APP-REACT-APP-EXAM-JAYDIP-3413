@@ -12,12 +12,17 @@ const Reservation = () => {
     let checkout = useRef()
 
     const [selectedroom, setSelectedroom] = useState('');
+    const [selectedroomtype, setSelectedroomtype] = useState('');
 
     let roomlist = useSelector((state) => state?.userReducer?.roomlist);
+    
         // Separate available and unavailable rooms
         const availableRooms = roomlist?.filter(room => room.status === 'available');
         // const unavailableRooms = roomlist.filter(room => room.status === 'unavailable' );
     console.log("🚀 ~ Reservation ~ roomlist:", roomlist)
+     // Separate type by sort 
+     const businessroom =  availableRooms?.filter(room => room.type == 'BUSINESS')
+     console.log("🚀 ~ RoomType ~ businessroom:", businessroom)
 
     let dispatch = useDispatch()
 
@@ -51,6 +56,9 @@ const Reservation = () => {
             <form onsubmit="return false">
             <h1 className="mt-5"> RESERVATION YOUR ROOM</h1>
                 <div class="box">
+              
+
+
                     <select class="form-select" aria-label="Default select example" value={selectedroom} onChange={(e) => setSelectedroom(e.target.value)}>
                         <option value="">Select room</option>
                         {availableRooms?.map((val, index) => (
