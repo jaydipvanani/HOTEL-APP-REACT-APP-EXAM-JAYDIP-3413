@@ -1,0 +1,107 @@
+{
+  "roomdetails": [
+    {
+      "type": "DELUXE",
+      "name": "LUXURY ROOM",
+      "description": "Deluxe luxury room are Peaceful and spacious, rest among the city.Furnished with a king size bed refreshing, comfortable spaces that afford peace and tranquility .",
+      "price": "3000 $",
+      "limit": "NIGHT",
+      "IMAGGE": "https://adigaresidency.com/wp-content/uploads/2016/02/Deluxe-4.png",
+      "id": "b98b"
+    },
+    {
+      "type": "DELUXE",
+      "name": "FAMILY ROOM",
+      "description": "Perfectly designed for travelers with children.Deluxe Family rooms come as either a double or twin, and feature sofa, bed.Ideal for families wanting to experience luxury",
+      "price": "4000 $",
+      "limit": "NIGHT",
+      "id": "d4cb"
+    },
+    {
+      "type": "BUSINESS",
+      "name": " Executive Room",
+      "description": "Business Executive rooms are perfect for your business trips into Bangalore, rooms come as Twin Sharing bed. It is perfect for Business travelers.",
+      "price": "22000 $",
+      "limit": "DAY",
+      "id": "4d53"
+    },
+    {
+      "type": "BUSINESS",
+      "name": "Class Suite",
+      "description": "Enjoy a two-room suite perfectly equipped for comfort and convenience With a private bedroom and separate living room. you have got two room for family, work or both.",
+      "price": "33000 $",
+      "limit": "DAY",
+      "id": "ba1c"
+    }
+  ],
+  "roomlist": [
+    {
+      "id": "a57d",
+      "room": "123",
+      "status": "available",
+      "type": "COMMON"
+    },
+    {
+      "id": "f986",
+      "room": "45",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "1df4",
+      "room": "121",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "5771",
+      "room": "111",
+      "status": "available",
+      "type": "GENERAL"
+    },
+    {
+      "id": "342b",
+      "room": "55",
+      "status": "available",
+      "type": "DELUXE"
+    },
+    {
+      "id": "3702",
+      "room": "333",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "32b5",
+      "room": "A-09",
+      "status": "unavailable",
+      "type": "BUSINESS"
+    }
+  ],
+  "reservationlist": [
+    {
+      "id": "5c37",
+      "name": "JAYDIP",
+      "room": "a57d",
+      "phone": "987654321",
+      "checkin": "2323-10-23",
+      "checkout": "2323-10-25"
+    },
+    {
+      "id": "c43b",
+      "name": "VANANI",
+      "room": "342b",
+      "phone": "987654345",
+      "checkin": "1111-11-11",
+      "checkout": "1111-11-11"
+    },
+    {
+      "id": "d877",
+      "name": "JATIN",
+      "room": "a57d",
+      "phone": "8765434565",
+      "checkin": "2222-12-22",
+      "checkout": "1111-11-11"
+    }
+  ]
+}
