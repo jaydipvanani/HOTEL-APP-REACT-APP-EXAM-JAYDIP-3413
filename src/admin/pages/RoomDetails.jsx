@@ -43,7 +43,7 @@ const RoomDetails = () => {
                         return (
                             <div class="projcard projcard-blue">
                                 <div class="projcard-innerbox">
-                                    <img class="projcard-img" src="https://adigaresidency.com/wp-content/uploads/2016/02/Deluxe-4.png" />
+                                    <img class="projcard-img" src={val.IMAGGE} />
                                     <div class="projcard-textbox">
                                         <div class="projcard-title">{val.type}</div>
                                         <div class="projcard-title">{val.name}</div>

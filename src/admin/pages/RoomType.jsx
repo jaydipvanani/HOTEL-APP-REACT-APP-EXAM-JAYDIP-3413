@@ -8,9 +8,9 @@ const RoomType = () => {
 
 
         // Separate available and unavailable rooms
-        const availableRooms = roomlist.filter(room => room.status === 'available');
+        const availableRooms = roomlist?.filter(room => room.status === 'available');
         console.log("🚀 ~ RoomType ~ availableRooms:", availableRooms)
-        const unavailableRooms = roomlist.filter(room => room.status === 'unavailable' );
+        const unavailableRooms = roomlist?.filter(room => room.status === 'unavailable' );
 
 
     // Separate type by sort 

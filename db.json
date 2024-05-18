@@ -14,6 +14,7 @@
       "name": "FAMILY ROOM",
       "description": "Perfectly designed for travelers with children.Deluxe Family rooms come as either a double or twin, and feature sofa, bed.Ideal for families wanting to experience luxury",
       "price": "4000 $",
+      "IMAGGE": "https://setupmyhotel.com/wp-content/uploads/2024/01/image-7.webp?ezimgfmt=rs:300x250/rscb339/ng:webp/ngcb338",
       "limit": "NIGHT",
       "id": "d4cb"
     },
@@ -22,6 +23,7 @@
       "name": " Executive Room",
       "description": "Business Executive rooms are perfect for your business trips into Bangalore, rooms come as Twin Sharing bed. It is perfect for Business travelers.",
       "price": "22000 $",
+      "IMAGGE": "https://setupmyhotel.com/wp-content/uploads/2024/01/image-6.webp?ezimgfmt=rs:300x250/rscb339/ng:webp/ngcb338",
       "limit": "DAY",
       "id": "4d53"
     },
@@ -30,20 +32,15 @@
       "name": "Class Suite",
       "description": "Enjoy a two-room suite perfectly equipped for comfort and convenience With a private bedroom and separate living room. you have got two room for family, work or both.",
       "price": "33000 $",
+      "IMAGGE": "https://setupmyhotel.com/wp-content/uploads/2024/01/image-8.webp?ezimgfmt=rs:300x250/rscb339/ng:webp/ngcb338",
       "limit": "DAY",
       "id": "ba1c"
     }
   ],
   "roomlist": [
     {
-      "id": "a57d",
-      "room": "123",
-      "status": "available",
-      "type": "COMMON"
-    },
-    {
       "id": "f986",
-      "room": "45",
+      "room": "450",
       "status": "available",
       "type": "BUSINESS"
     },
@@ -82,32 +79,116 @@
       "room": "555",
       "status": "available",
       "type": "DELUXE"
+    },
+    {
+      "id": "3132",
+      "room": "9999999999",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "7d8d",
+      "room": "1234567898765432",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "704d",
+      "room": "2354325677654367898765435678987654567898",
+      "status": "available",
+      "type": "GENERAL"
+    },
+    {
+      "id": "2408",
+      "room": "111111",
+      "status": "available",
+      "type": "COMMON"
+    },
+    {
+      "id": "6aa3",
+      "room": "A-402",
+      "status": "available",
+      "type": "COMMON"
+    },
+    {
+      "id": "f0c9",
+      "room": "098",
+      "status": "available",
+      "type": "DELUXE"
     }
   ],
   "reservationlist": [
     {
-      "id": "5c37",
-      "name": "JAYDIP",
-      "room": "a57d",
-      "phone": "987654321",
-      "checkin": "2323-10-23",
-      "checkout": "2323-10-25"
+      "id": "3beb",
+      "type": "BUSINESS",
+      "roomnumber": "121",
+      "name": "vamja",
+      "phone": "56789",
+      "checkin": "7890-05-06",
+      "checkout": "5555-05-05"
     },
     {
-      "id": "c43b",
-      "name": "VANANI",
-      "room": "342b",
-      "phone": "987654345",
-      "checkin": "1111-11-11",
-      "checkout": "1111-11-11"
+      "id": "5d4c",
+      "type": "BUSINESS",
+      "roomnumber": "121",
+      "name": "virat",
+      "phone": "5432",
+      "checkin": "275760-07-06",
+      "checkout": "275760-03-04"
     },
     {
-      "id": "d877",
-      "name": "JATIN",
-      "room": "a57d",
-      "phone": "8765434565",
-      "checkin": "2222-12-22",
-      "checkout": "1111-11-11"
+      "id": "d004",
+      "type": "DELUXE",
+      "roomnumber": "555",
+      "name": "BHARAGAV",
+      "phone": "7895678956789",
+      "checkin": "8888-08-08",
+      "checkout": "9999-09-09"
+    },
+    {
+      "id": "3bfe",
+      "type": "BUSINESS",
+      "roomnumber": "333",
+      "name": "krunal",
+      "phone": "989889898",
+      "checkin": "7777-01-01",
+      "checkout": "2024-05-17"
+    },
+    {
+      "id": "d56b",
+      "type": "BUSINESS",
+      "roomnumber": "45",
+      "name": "bhargavvvv",
+      "phone": "9765432",
+      "checkin": "76543-09-08",
+      "checkout": "275760-09-08"
+    },
+    {
+      "id": "c915",
+      "type": "DELUXE",
+      "roomnumber": "55",
+      "name": "HITESH",
+      "phone": "456789",
+      "checkin": "6789-04-05",
+      "checkout": "6789-04-05"
+    },
+    {
+      "id": "e3fe",
+      "type": "GENERAL",
+      "roomnumber": "111",
+      "name": "67896789",
+      "phone": "789",
+      "checkin": "0089-06-07",
+      "checkout": "0089-06-07"
+    },
+    {
+      "id": "0455",
+      "type": "BUSINESS",
+      "roomnumber": "45",
+      "name": "TOPA",
+      "phone": "78788787",
+      "checkin": "275760-08-07",
+      "checkout": "275760-08-07"
     }
   ]
 }

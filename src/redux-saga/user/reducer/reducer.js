@@ -49,7 +49,7 @@ let userReducer = (state = initialState, action) => {
         case GET_ROOMDETAILS_ERROR, GET_ROOMLIST_ERROR, POST_RESERVATION_ERROR, UPDATE_RESERVATION_ERROR, POST_ROOMLIST_ERROR,UPDATE_ROOMLIST_ERROR: {
             return {
                 ...state,
-                isError: action.data,
+                isError: action.data.data,
 
             }
         }

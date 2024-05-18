@@ -33,6 +33,11 @@ const Navbar = () => {
                             <a class="nav-link" href="">ROOM LIST</a>
                         </li>
                        </Link>
+                       <Link to="roommanage">
+                       <li class="nav-item">
+                            <a class="nav-link" href="">ROOM MANAGE</a>
+                        </li>
+                       </Link>
                       
                        
                         <li class="nav-link">

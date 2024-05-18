@@ -126,7 +126,7 @@ const LoginUser = () => {
                                 <span class="focus-input100"></span>
                             </div>
                             <div class="wrap-input100 validate-input" data-validate="Please enter password" >
-                                <input class="input100" type="password" name="pass" placeholder="Password" ref={password} required/>
+                                <input class="input100" type="password" name="pass" placeholder="Password" ref={password} required />
                                 <span class="focus-input100"></span>
                             </div>
                            
