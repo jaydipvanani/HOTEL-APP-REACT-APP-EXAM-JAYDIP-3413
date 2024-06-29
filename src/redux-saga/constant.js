@@ -48,3 +48,9 @@ export let DELETE_RESERVATION = "/reservationlist/"; //+id
 
 //update roomdetails
 export let PUT_RESERVATION = "/reservationlist/"; //+id
+
+
+//login
+
+export let LOGIN_ADMIN = "/login"
+export let LOGIN_USER = "/login"

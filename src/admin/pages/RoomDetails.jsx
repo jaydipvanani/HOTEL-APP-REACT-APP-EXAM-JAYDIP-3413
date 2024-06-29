@@ -1,71 +1,51 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 const RoomDetails = () => {
-    // selector
-    let roomdetails = useSelector((state) => state.userReducer.roomdetails);
+    // Selector
+    const roomdetails = useSelector((state) => state.userReducer.roomdetails);
+    const [loading, setLoading] = useState(true);
 
+    useEffect(() => {
+        // Set a timeout for 3 seconds to simulate loading
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 500);
 
-    let dispatch = useDispatch()
+        // Cleanup the timer on component unmount
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (loading) {
+        return <div className="loader">Loading...</div>; // Custom loader element
+    }
+
     return (
-        // <div>
-
-        //     <table class="table table-bordered table-dark mt-5">
-        //         <thead>
-        //             <tr>
-        //                 <th scope="col">LED</th>
-        //                 <th scope="col">BED</th>
-        //                 <th scope="col">COFFEMAKER</th>
-        //                 <th scope="col">ALARM</th>
-        //             </tr>
-        //         </thead>
-        //         <tbody>
-
-        //             {roomdetails?.map((val, index) => (<tr style={{ height: "10px" }}>
-        //                 <td>{val.LEDtv}</td>
-        //                 <td>{val.Bed}</td>
-        //                 <td>{val.Coffeemaker}</td>
-        //                 <td>{val.Alarmclock}</td>
-        //                 {/* <td onClick={() => handleDelete(val.id)} >delete</td>
-        //                 <td data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={() => handleview(val.id, index)}>view</td> */}
-        //             </tr>))}
-        //         </tbody>
-        //     </table>
-
-        // </div >
-
-        <>
-
-            <div class="projcard-container">
-                {
-                    roomdetails?.map((val, ind) => {
-                        return (
-                            <div class="projcard projcard-blue">
-                                <div class="projcard-innerbox">
-                                    <img class="projcard-img" src={val.IMAGGE} />
-                                    <div class="projcard-textbox">
-                                        <div class="projcard-title">{val.type}</div>
-                                        <div class="projcard-title">{val.name}</div>
-                                        <div class="projcard-subtitle">{val.limit}</div>
-                                        <div class="projcard-bar"></div>
-                                        <div class="projcard-description">{val.description}
-                                        </div>
-                                        <div class="projcard-tagbox">
-                                           <Link to={"/reservation"}> <button><a href="">{val.price} </a></button></Link>
-                                        </div>
-                                    </div>
+        <div className="projcard-container">
+            {
+                roomdetails?.map((val, ind) => (
+                    <div className="projcard projcard-blue" key={ind}>
+                        <div className="projcard-innerbox">
+                            <img className="projcard-img" src={val.IMAGGE} alt={val.type} />
+                            <div className="projcard-textbox">
+                                <div className="projcard-title">{val.type}</div>
+                                <div className="projcard-title">{val.name}</div>
+                                <div className="projcard-subtitle">{val.limit}</div>
+                                <div className="projcard-bar"></div>
+                                <div className="projcard-description">{val.description}</div>
+                                <div className="projcard-tagbox">
+                                    <Link to="/reservation">
+                                        <button>{val.price}</button>
+                                    </Link>
                                 </div>
                             </div>
-                        )
-                    })
-                }
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    );
+};
 
-            </div>
-
-
-        </>
-    )
-}
-
-export default RoomDetails
+export default RoomDetails;

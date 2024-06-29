@@ -173,22 +173,80 @@
       "checkout": "6789-04-05"
     },
     {
-      "id": "e3fe",
-      "type": "GENERAL",
-      "roomnumber": "111",
-      "name": "67896789",
-      "phone": "789",
-      "checkin": "0089-06-07",
-      "checkout": "0089-06-07"
-    },
-    {
       "id": "0455",
       "type": "BUSINESS",
       "roomnumber": "45",
       "name": "TOPA",
-      "phone": "78788787",
+      "phone": "7878878711",
       "checkin": "275760-08-07",
       "checkout": "275760-08-07"
+    }
+  ],
+  "login": [
+    {
+      "role": "",
+      "admin": "",
+      "id": "db7f"
+    },
+    {
+      "id": "16f9",
+      "name": "bhargav",
+      "password": "123"
+    },
+    {
+      "id": "78ea",
+      "name": "jaydeep",
+      "password": "123"
+    },
+    {
+      "id": "168f",
+      "name": "admin",
+      "password": "12345"
+    },
+    {
+      "id": "4473",
+      "name": "admin",
+      "password": "12345"
+    },
+    {
+      "id": "43a6",
+      "name": "admin",
+      "password": "12345"
+    },
+    {
+      "id": "88e1",
+      "name": "bhargav",
+      "password": "123"
+    },
+    {
+      "id": "1e76",
+      "name": "918238061093dfdsf",
+      "password": "2345thfcbcv"
+    },
+    {
+      "id": "54b2",
+      "name": "ares",
+      "password": "xvx"
+    },
+    {
+      "id": "4651",
+      "name": "admin",
+      "password": " d"
+    },
+    {
+      "id": "f49c",
+      "name": "TESTCARD27",
+      "password": "sadsa"
+    },
+    {
+      "id": "dddc",
+      "name": "TESTCARD27",
+      "password": "sadsa"
+    },
+    {
+      "id": "c4f3",
+      "name": "TESTCARD27",
+      "password": "sadsa"
     }
   ]
 }
